@@ -1,0 +1,25 @@
+{
+  "name": "@math-suite/geometry-68",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3003",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@math-suite/core": "*",
+    "@math-suite/types": "*",
+    "@math-suite/ui": "*",
+    "@math-suite/manipulatives": "*",
+    "@math-suite/socratic": "*",
+    "@math-suite/teacher-dashboard": "*",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/react": "^18.3.0"
+  }
+}

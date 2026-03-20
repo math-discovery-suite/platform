@@ -1,0 +1,15 @@
+{
+  "name": "@math-suite/teacher-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "@math-suite/types": "*",
+    "@math-suite/ui": "*"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@math-suite/ui": [
+        "./packages/ui/src"
+      ],
+      "@math-suite/core": [
+        "./packages/core/src"
+      ],
+      "@math-suite/socratic": [
+        "./packages/socratic-engine/src"
+      ],
+      "@math-suite/manipulatives": [
+        "./packages/manipulatives/src"
+      ],
+      "@math-suite/teacher-dashboard": [
+        "./packages/teacher-dashboard/src"
+      ],
+      "@math-suite/types": [
+        "./packages/types/src"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

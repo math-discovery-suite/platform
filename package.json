@@ -1,0 +1,26 @@
+{
+  "name": "math-discovery-suite",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Richard & Richgels Piagetian Math App Suite",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "new-app": "node scripts/scaffold-app.js"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.4.0",
+    "prettier": "^3.2.0",
+    "eslint": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
